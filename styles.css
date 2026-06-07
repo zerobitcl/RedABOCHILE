@@ -56,8 +56,9 @@ h1, h2, h3, h4 { color: var(--primary-deep); font-weight: 700; margin-top: 0; }
 .field-group-premium { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
 .field { margin-bottom:20px; text-align:left; }
 .field label { display:block; margin-bottom:9px; font-weight:600; font-size:0.85rem; color:var(--primary-deep); text-transform:uppercase; letter-spacing:0.5px; }
-.field input, .field select { width:100%; padding:15px; border-radius:var(--border-radius-premium); border:1px solid #ddd; font-size:1rem; box-sizing:border-box; transition:var(--transition-fast); background-color:#fcfcfc; color:var(--primary-deep); }
-.field input:focus, .field select:focus { border-color:var(--accent-gold); outline:none; background-color:var(--white); box-shadow:0 0 0 3px rgba(214,175,55,0.1); }
+.field input, .field select, .field textarea { width:100%; padding:15px; border-radius:var(--border-radius-premium); border:1px solid #ddd; font-size:1rem; box-sizing:border-box; transition:var(--transition-fast); background-color:#fcfcfc; color:var(--primary-deep); font-family:inherit; }
+.field textarea { min-height:120px; resize:vertical; line-height:1.5; }
+.field input:focus, .field select:focus, .field textarea:focus { border-color:var(--accent-gold); outline:none; background-color:var(--white); box-shadow:0 0 0 3px rgba(214,175,55,0.1); }
 .consent-box { margin:25px 0; font-size:0.85rem; color:var(--text-light); text-align:left; }
 .consent-flex { display:flex; align-items:flex-start; gap:12px; }
 .consent-box input[type="checkbox"] { margin-top:4px; width:16px; height:16px; accent-color:var(--accent-gold); cursor:pointer; }
