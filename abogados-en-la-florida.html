@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudio Jurídico La Florida | Defensa Familia y Civil</title>
-    <meta name="description" content="Abogados asociados en La Florida para demandas de alimentos, divorcios y disputas civiles. Evaluación de viabilidad sin costo inicial bajo secreto profesional.">
+    <title>Abogados en La Florida - Asesoría Legal y Consulta</title>
+    <meta name="description" content="Abogados en La Florida: familia, laboral y civil. Consulta legal gratuita y asignación por comuna. WhatsApp +56 9 5358 5758.">
     <link rel="canonical" href="https://redabogadoschile.cl/abogados-en-la-florida.html" />
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_CL" />
     <meta property="og:url" content="https://redabogadoschile.cl/abogados-en-la-florida.html" />
-    <meta property="og:title" content="Estudio Jurídico La Florida | Defensa Familia y Civil" />
-    <meta property="og:description" content="Abogados asociados en La Florida para demandas de alimentos, divorcios y disputas civiles. Evaluación de viabilidad sin costo inicial bajo secreto profesional." />
+    <meta property="og:title" content="Abogados en La Florida - Asesoría Legal y Consulta" />
+    <meta property="og:description" content="Abogados en La Florida: familia, laboral y civil. Consulta legal gratuita y asignación por comuna. WhatsApp +56 9 5358 5758." />
     <meta property="og:image" content="https://redabogadoschile.cl/logo1.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Estudio Jurídico La Florida | Defensa Familia y Civil" />
-    <meta name="twitter:description" content="Abogados asociados en La Florida para demandas de alimentos, divorcios y disputas civiles. Evaluación de viabilidad sin costo inicial bajo secreto profesional." />
+    <meta name="twitter:title" content="Abogados en La Florida - Asesoría Legal y Consulta" />
+    <meta name="twitter:description" content="Abogados en La Florida: familia, laboral y civil. Consulta legal gratuita y asignación por comuna. WhatsApp +56 9 5358 5758." />
     <meta name="twitter:image" content="https://redabogadoschile.cl/logo1.png" />
 
     <script type="application/ld+json">
@@ -33,7 +33,7 @@
     <script type="application/ld+json" id="legalservice-schema">
     {
       "@context": "https://schema.org",
-      "@type": "LegalService",
+      "@type": ["LegalService", "LocalBusiness"],
       "@id": "https://redabogadoschile.cl/abogados-en-la-florida.html#legalservice",
       "name": "Red Abogados Chile – La Florida",
       "description": "Red de abogados en La Florida. Análisis de viabilidad transparente en familia clásica (alimentos, cuidado compartido), conflictos de copropiedad bajo Ley N° 21.442 y laboral retail/logística. Confidencialidad bajo secreto profesional.",
@@ -112,7 +112,7 @@
             <div class="container hero-grid-improved">
                 <div class="hero-content animation-fadeInLeft">
                     <span class="hero-subtitle">Defensa Jurídica para Familias y Trabajadores de La Florida</span>
-                    <h1 class="h1-improved">Pensión de alimentos, cuidado compartido y conflictos de condominio en <span class="h1-strong">La Florida</span>: defensa real con rigor técnico.</h1>
+                    <h1 class="h1-improved">Abogados Especialistas en <span class="h1-strong">La Florida</span></h1>
                     <p class="lead">
                         La Florida es una de las comunas residenciales más densas de la Región Metropolitana: más de 360 mil habitantes, alta concentración de condominios y conjuntos habitacionales, y trabajadores del retail, logística y supermercados. Sus familias enfrentan a diario demandas de alimentos ante los Juzgados de Familia locales, conflictos de copropiedad bajo la Ley N° 21.442 y disputas laborales que merecen una defensa técnica, no burocracia. Asignamos <strong>abogados especializados en La Florida</strong> que conocen los tribunales locales y los conflictos del sector sur-oriente.
                     </p>
@@ -132,46 +132,34 @@
                 <div class="hero-form-wrapper animation-fadeInRight">
                     <div class="card form-card-improved" id="contacto">
                         <div class="form-head">
-                            <h2>Análisis de Caso Legal</h2>
+                            <p class="form-head-title">Análisis de Caso Legal</p>
                             <p>Su situación evaluada por un abogado con experiencia en el Juzgado de Familia de La Florida y los conflictos de la comuna.</p>
                         </div>
-                        <form action="https://api.web3forms.com/submit" method="POST" id="leadForm" class="form" novalidate>
+                                                <form action="https://api.web3forms.com/submit" method="POST" id="leadForm" class="form">
                             <input type="hidden" name="access_key" value="e971907c-1fd7-4d71-9931-513f91fa2b40" />
                             <input type="hidden" name="origen" value="Landing La Florida" />
+                            <input type="hidden" name="comuna" value="La Florida" />
                             <div class="field">
-                                <label for="area">Materia Jurídica</label>
+                                <label for="nombre">Nombre</label>
+                                <input id="nombre" name="nombre" type="text" placeholder="Ej. Juan Pérez" autocomplete="name" required minlength="2" />
+                            </div>
+                            <div class="field">
+                                <label for="telefono">Teléfono</label>
+                                <input id="telefono" name="telefono" type="tel" inputmode="tel" placeholder="+56 9 XXXX XXXX" autocomplete="tel" required pattern="[+]?[0-9\s]{8,15}" title="Ingrese un número de teléfono válido" />
+                            </div>
+                            <div class="field">
+                                <label for="area">Especialidad requerida</label>
                                 <select id="area" name="area_legal" required>
-                                    <option value="" selected disabled>Selecciona el área legal...</option>
-                                    <option value="Familia y Alimentos">Derecho de Familia (Alimentos, Cuidado Compartido, VIF)</option>
-                                    <option value="Copropiedad Condominio">Copropiedad en Condominio (Ley 21.442)</option>
-                                    <option value="Laboral Retail">Derecho Laboral (Retail, Logística, Despidos)</option>
-                                    <option value="Derecho Civil">Derecho Civil (Arriendos, Contratos, Cobros)</option>
-                                    <option value="Derecho Penal">Derecho Penal (Defensa y Querellas)</option>
+                                    <option value="" selected disabled>Seleccione especialidad...</option>
+                                    <option value="Derecho de Familia">Derecho de Familia (Alimentos, Cuidado, VIF)</option>
+                                    <option value="Derecho Laboral">Derecho Laboral (Despidos, Tutela)</option>
+                                    <option value="Copropiedad y Arriendo">Copropiedad Inmobiliaria y Arriendo</option>
+                                    <option value="Derecho Civil">Derecho Civil (Cobros, Contratos)</option>
                                     <option value="Otro">Otra materia / No estoy seguro</option>
                                 </select>
                             </div>
-                            <div class="field-group-premium">
-                                <div class="field">
-                                    <label for="nombre">Nombre Completo</label>
-                                    <input id="nombre" name="nombre" type="text" placeholder="Ej. Juan Pérez" required />
-                                </div>
-                                <div class="field">
-                                    <label for="telefono">WhatsApp de Contacto</label>
-                                    <input id="telefono" name="telefono" type="tel" inputmode="tel" placeholder="+56 9 XXXX XXXX" required />
-                                </div>
-                            </div>
-                            <div class="field">
-                                <label for="comuna">Comuna de Residencia</label>
-                                <input id="comuna" name="comuna" type="text" value="La Florida" required />
-                            </div>
-                            <div class="consent-box">
-                                <div class="consent-flex">
-                                    <input id="consent" name="consent" type="checkbox" required />
-                                    <label for="consent">Entiendo que mis datos son protegidos bajo estricto secreto profesional y acepto la <a href="politica-privacidad.html">política de privacidad</a>.</label>
-                                </div>
-                            </div>
-                            <button class="btn btn-primary btn-block btn-form" type="submit" id="submitBtn">Solicitar Conexión con Especialista</button>
-                            <p class="cta-trust-micro--form">Evaluación inicial de viabilidad sin costo bajo estricta reserva legal.</p>
+                            <button class="btn btn-primary btn-block btn-form" type="submit" id="submitBtn">Quiero que me contacten ahora</button>
+                            <p class="cta-trust-micro--form">Al enviar acepta nuestra <a href="politica-privacidad.html">política de privacidad</a>. Secreto profesional garantizado.</p>
                         </form>
                         <div class="form-success-message" id="formSuccessMessage" role="status" aria-live="polite">
                             <div class="form-success-icon" aria-hidden="true">✓</div>
@@ -197,7 +185,7 @@
             <div class="container">
                 <div class="section-head-premium">
                     <span class="section-subtitle">Áreas de Práctica en La Florida</span>
-                    <h2 class="h2-improved">Especialistas al Servicio de los Floridanos</h2>
+                    <p class="h2-improved section-intro">Especialistas al Servicio de los Floridanos</p>
                     <p>Conocemos la realidad jurídica de La Florida: los conflictos más frecuentes de sus familias y trabajadores, y cómo resolverlos.</p>
                 </div>
                 <div class="grid-services-improved cards">
@@ -205,59 +193,26 @@
                         <div class="card-icon-premium">
                             <span class="card-icon-svg" role="img" aria-label="Abogado Familia La Florida"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 4-1 4-3"/><path d="M21 7h-2c-2 0-4-1-4-3"/></svg></span>
                         </div>
-                        <h3>Derecho de Familia</h3>
+                        <h2>Derecho de Familia</h2>
                         <p>La Florida es una comuna con alta demanda de causas de familia. Actuamos en demandas de pensión de alimentos, incluyendo alimentos provisorios que pueden fijarse en la primera audiencia, juicios de cuidado personal de hijos, regulación de relación directa y regular, y causas de VIF con medidas de protección urgentes ante el Juzgado de Familia competente.</p>
                     </article>
                     <article class="service-card-improved">
                         <div class="card-icon-premium">
                             <span class="card-icon-svg" role="img" aria-label="Abogado Laboral La Florida"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></span>
                         </div>
-                        <h3>Derecho Laboral</h3>
+                        <h2>Derecho Laboral</h2>
                         <p>La Florida alberga trabajadores del retail, supermercados, cadenas de tiendas y servicios. Son sectores donde los despidos sin carta aviso, el no pago de horas extras y la informalidad en los contratos son frecuentes. Demandamos indemnizaciones por despido injustificado, prestaciones impagas y accionamos por autodespido cuando el empleador incumple sus obligaciones.</p>
                     </article>
                     <article class="service-card-improved">
                         <div class="card-icon-premium">
                             <span class="card-icon-svg" role="img" aria-label="Abogado Copropiedad Condominios La Florida"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h12a2 2 0 0 0 2-2v-2H10v2a2 2 0 1 1-4 0V5a2 2 0 0 0-2-2 2 2 0 0 0-2 2v11a2 2 0 0 0 2 2z"/><path d="M19 17V5a2 2 0 0 0-2-2H4"/></svg></span>
                         </div>
-                        <h3>Copropiedad Inmobiliaria y Arriendo</h3>
+                        <h2>Copropiedad Inmobiliaria y Arriendo</h2>
                         <p>La Florida es una comuna saturada de condominios y conjuntos habitacionales donde los conflictos de copropiedad bajo la Ley N° 21.442 son cotidianos: gastos comunes impagos, comités de administración que actúan fuera de sus atribuciones, impugnación de acuerdos de asamblea, uso indebido de bienes comunes y rendiciones de cuenta omitidas. Adicionalmente, gestionamos juicios de arrendamiento (garantías no devueltas, no pago de renta, terminación) y cobros civiles ante el Juzgado de Letras correspondiente.</p>
                     </article>
                 </div>
             </div>
         </section>
-
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "¿Dónde queda el Juzgado de Familia de La Florida y qué causas atiende?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "La Florida cuenta con juzgados de familia que atienden causas de residentes de la comuna, incluyendo pensiones de alimentos, cuidado personal de hijos, violencia intrafamiliar y divorcios. Para causas de mayor cuantía o complejidad, algunos casos se radican en los Juzgados de Familia de Santiago. Un abogado especialista en La Florida puede orientarle sobre el tribunal correcto y los plazos reales para su tipo de causa, que varían según la urgencia y el procedimiento aplicable."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "¿Puedo demandar a mi empleador en La Florida si no me pagó horas extraordinarias?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sí. El no pago de horas extraordinarias es una infracción al Código del Trabajo chileno y da derecho a demandar las horas impagas más un recargo del 50% sobre el valor de la hora normal. La acción debe presentarse ante el Juzgado de Letras del Trabajo correspondiente al domicilio del trabajador o del empleador. El plazo de prescripción es de 2 años. En La Florida, sectores como el retail y la logística concentran la mayoría de este tipo de conflictos. Un abogado laboral puede estimar el monto de su demanda en la evaluación inicial."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "¿Cómo reclamar si mi arrendador en La Florida no cumple el contrato de arriendo?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Cuando el arrendador en La Florida no cumple sus obligaciones —no hace reparaciones estructurales, no entrega recibos de pago, viola la privacidad del inmueble o no respeta los plazos pactados— el arrendatario tiene derecho a exigir el cumplimiento forzado del contrato o a solicitar la terminación del arriendo más indemnización de perjuicios. El procedimiento se tramita ante el Juzgado de Letras correspondiente. En casos de incumplimiento grave, es posible también solicitar la resolución del contrato de inmediato mediante medidas cautelares."
-              }
-            }
-          ]
-        }
-        </script>
 
         <section class="section-faq" id="faq-la-florida" aria-labelledby="faq-titulo-lf">
             <div class="container">
@@ -271,26 +226,26 @@
                     <span class="faq-context-tag">Pensión de Alimentos</span>
                     <span class="faq-context-tag">Arriendo Sur-Oriente</span>
                 </div>
-                <div class="faq-accordion">
-                    <details class="faq-premium-item">
-                        <summary>¿Dónde queda el Juzgado de Familia de La Florida y qué causas atiende?</summary>
-                        <div class="faq-premium-content">
+                <div class="faq-accordion" itemscope itemtype="https://schema.org/FAQPage">
+                    <details class="faq-premium-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <summary itemprop="name">¿Dónde queda el Juzgado de Familia de La Florida y qué causas atiende?</summary>
+                        <div class="faq-premium-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                             <span class="faq-premium-sector">Familia</span>
-                            <p>La Florida cuenta con juzgados de familia que atienden causas de residentes de la comuna, incluyendo pensiones de alimentos, cuidado personal, violencia intrafamiliar y divorcios. Para causas de mayor complejidad, algunos casos se radican en los Juzgados de Familia de Santiago. Un abogado especialista puede orientarle sobre el tribunal correcto y los plazos reales para su tipo de causa, que varían según la urgencia y el procedimiento aplicable.</p>
+                            <p itemprop="text">La Florida cuenta con juzgados de familia que atienden causas de residentes de la comuna, incluyendo pensiones de alimentos, cuidado personal, violencia intrafamiliar y divorcios. Para causas de mayor complejidad, algunos casos se radican en los Juzgados de Familia de Santiago. Un abogado especialista puede orientarle sobre el tribunal correcto y los plazos reales para su tipo de causa, que varían según la urgencia y el procedimiento aplicable.</p>
                         </div>
                     </details>
-                    <details class="faq-premium-item">
-                        <summary>¿Puedo demandar a mi empleador en La Florida si no me pagó horas extraordinarias?</summary>
-                        <div class="faq-premium-content">
+                    <details class="faq-premium-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <summary itemprop="name">¿Puedo demandar a mi empleador en La Florida si no me pagó horas extraordinarias?</summary>
+                        <div class="faq-premium-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                             <span class="faq-premium-sector">Horas Extra</span>
-                            <p>Sí. El no pago de horas extraordinarias es una infracción al Código del Trabajo y da derecho a demandar las horas impagas más un recargo del 50% sobre el valor de la hora normal. La acción se presenta ante el Juzgado de Letras del Trabajo. El plazo de prescripción es de 2 años. En La Florida, los sectores de retail y logística concentran la mayoría de estos conflictos. Un abogado laboral puede estimar el monto de su demanda desde la primera evaluación.</p>
+                            <p itemprop="text">Sí. El no pago de horas extraordinarias es una infracción al Código del Trabajo y da derecho a demandar las horas impagas más un recargo del 50% sobre el valor de la hora normal. La acción se presenta ante el Juzgado de Letras del Trabajo. El plazo de prescripción es de 2 años. En La Florida, los sectores de retail y logística concentran la mayoría de estos conflictos. Un abogado laboral puede estimar el monto de su demanda desde la primera evaluación.</p>
                         </div>
                     </details>
-                    <details class="faq-premium-item">
-                        <summary>¿Cómo reclamar si mi arrendador en La Florida no cumple el contrato de arriendo?</summary>
-                        <div class="faq-premium-content">
+                    <details class="faq-premium-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <summary itemprop="name">¿Cómo reclamar si mi arrendador en La Florida no cumple el contrato de arriendo?</summary>
+                        <div class="faq-premium-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                             <span class="faq-premium-sector">Arrendamiento</span>
-                            <p>Cuando el arrendador no cumple sus obligaciones —no hace reparaciones estructurales, viola la privacidad del inmueble o no respeta los plazos pactados— el arrendatario tiene derecho a exigir el cumplimiento forzado o a solicitar la resolución del contrato más indemnización de perjuicios. El procedimiento se tramita ante el Juzgado de Letras correspondiente. En casos graves, es posible solicitar medidas cautelares inmediatas.</p>
+                            <p itemprop="text">Cuando el arrendador no cumple sus obligaciones —no hace reparaciones estructurales, viola la privacidad del inmueble o no respeta los plazos pactados— el arrendatario tiene derecho a exigir el cumplimiento forzado o a solicitar la resolución del contrato más indemnización de perjuicios. El procedimiento se tramita ante el Juzgado de Letras correspondiente. En casos graves, es posible solicitar medidas cautelares inmediatas.</p>
                         </div>
                     </details>
                 </div>

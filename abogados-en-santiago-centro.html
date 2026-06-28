@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudio Jurídico Santiago Centro | Defensa Penal y Civil</title>
-    <meta name="description" content="Firma de abogados litigantes en Santiago Centro. Defensa penal estratégica, querellas y litigios civiles de alta complejidad. Consulta de viabilidad confidencial.">
+    <title>Abogados en Santiago Centro - Asesoría Legal y Consulta</title>
+    <meta name="description" content="Abogados en Santiago Centro: penal, civil y laboral ante tribunales centrales. Consulta legal confidencial. WhatsApp +56 9 5358 5758.">
     <link rel="canonical" href="https://redabogadoschile.cl/abogados-en-santiago-centro.html" />
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_CL" />
     <meta property="og:url" content="https://redabogadoschile.cl/abogados-en-santiago-centro.html" />
-    <meta property="og:title" content="Estudio Jurídico Santiago Centro | Defensa Penal y Civil" />
-    <meta property="og:description" content="Firma de abogados litigantes en Santiago Centro. Defensa penal estratégica, querellas y litigios civiles de alta complejidad. Consulta de viabilidad confidencial." />
+    <meta property="og:title" content="Abogados en Santiago Centro - Asesoría Legal y Consulta" />
+    <meta property="og:description" content="Abogados en Santiago Centro: penal, civil y laboral ante tribunales centrales. Consulta legal confidencial. WhatsApp +56 9 5358 5758." />
     <meta property="og:image" content="https://redabogadoschile.cl/logo1.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Estudio Jurídico Santiago Centro | Defensa Penal y Civil" />
-    <meta name="twitter:description" content="Firma de abogados litigantes en Santiago Centro. Defensa penal estratégica, querellas y litigios civiles de alta complejidad. Consulta de viabilidad confidencial." />
+    <meta name="twitter:title" content="Abogados en Santiago Centro - Asesoría Legal y Consulta" />
+    <meta name="twitter:description" content="Abogados en Santiago Centro: penal, civil y laboral ante tribunales centrales. Consulta legal confidencial. WhatsApp +56 9 5358 5758." />
     <meta name="twitter:image" content="https://redabogadoschile.cl/logo1.png" />
 
     <script type="application/ld+json">
@@ -33,7 +33,7 @@
     <script type="application/ld+json" id="legalservice-schema">
     {
       "@context": "https://schema.org",
-      "@type": "LegalService",
+      "@type": ["LegalService", "LocalBusiness"],
       "@id": "https://redabogadoschile.cl/abogados-en-santiago-centro.html#legalservice",
       "name": "Red Abogados Chile – Santiago Centro",
       "description": "Red de abogados litigantes en Santiago Centro. Litigios civiles masivos, defensa penal de alta complejidad, querellas, gestiones administrativas y judiciales centrales. Confidencialidad bajo secreto profesional.",
@@ -117,7 +117,7 @@
             <div class="container hero-grid-improved">
                 <div class="hero-content animation-fadeInLeft">
                     <span class="hero-subtitle">Litigios Civiles, Defensa Penal y Querellas en el Centro Judicial de Chile</span>
-                    <h1 class="h1-improved">Litigantes con presencia diaria en los tribunales de <span class="h1-strong">Santiago Centro</span>: civil, penal y administrativo.</h1>
+                    <h1 class="h1-improved">Abogados Especialistas en <span class="h1-strong">Santiago Centro</span></h1>
                     <p class="lead">
                         Santiago Centro aloja el Poder Judicial completo: Juzgados Civiles, Juzgados de Garantía y Tribunales de Juicio Oral en lo Penal, Fiscalía, Juzgados de Familia, Tribunales Laborales y la Corte de Apelaciones. Cuando su causa exige litigación civil masiva, defensa penal de alta complejidad, una querella criminal o gestiones administrativas centrales, la proximidad y experiencia del abogado en estos tribunales es determinante. Nuestra red en <strong>Santiago Centro</strong> realiza un análisis de viabilidad transparente antes de cualquier acción, bajo estricta reserva legal.
                     </p>
@@ -140,47 +140,35 @@
                 <div class="hero-form-wrapper animation-fadeInRight">
                     <div class="card form-card-improved" id="contacto">
                         <div class="form-head">
-                            <h2>Análisis de Caso Legal</h2>
+                            <p class="form-head-title">Análisis de Caso Legal</p>
                             <p>Análisis de viabilidad con rigor técnico. Un litigante que opera diariamente en los Tribunales de Santiago evaluará su situación bajo estricta reserva legal.</p>
                         </div>
-                        <form action="https://api.web3forms.com/submit" method="POST" id="leadForm" class="form" novalidate>
+                                                <form action="https://api.web3forms.com/submit" method="POST" id="leadForm" class="form">
                             <input type="hidden" name="access_key" value="e971907c-1fd7-4d71-9931-513f91fa2b40" />
                             <input type="hidden" name="origen" value="Landing Santiago Centro" />
+                            <input type="hidden" name="comuna" value="Santiago Centro" />
                             <div class="field">
-                                <label for="area">Materia Jurídica</label>
+                                <label for="nombre">Nombre</label>
+                                <input id="nombre" name="nombre" type="text" placeholder="Ej. Juan Pérez" autocomplete="name" required minlength="2" />
+                            </div>
+                            <div class="field">
+                                <label for="telefono">Teléfono</label>
+                                <input id="telefono" name="telefono" type="tel" inputmode="tel" placeholder="+56 9 XXXX XXXX" autocomplete="tel" required pattern="[+]?[0-9\s]{8,15}" title="Ingrese un número de teléfono válido" />
+                            </div>
+                            <div class="field">
+                                <label for="area">Especialidad requerida</label>
                                 <select id="area" name="area_legal" required>
-                                    <option value="" selected disabled>Selecciona el área legal...</option>
+                                    <option value="" selected disabled>Seleccione especialidad...</option>
                                     <option value="Litigios Civiles">Litigios Civiles (Demandas, Cobros Ejecutivos)</option>
                                     <option value="Defensa Penal">Defensa Penal de Alta Complejidad</option>
                                     <option value="Querellas Criminales">Querellas Criminales y Gestiones Fiscales</option>
                                     <option value="Derecho de Familia">Derecho de Familia (Divorcios, Alimentos, VIF)</option>
                                     <option value="Derecho Laboral">Derecho Laboral (Despidos, Tutela)</option>
-                                    <option value="Gestiones Administrativas">Gestiones Administrativas y Judiciales Centrales</option>
                                     <option value="Otro">Otra materia / No estoy seguro</option>
                                 </select>
                             </div>
-                            <div class="field-group-premium">
-                                <div class="field">
-                                    <label for="nombre">Nombre Completo</label>
-                                    <input id="nombre" name="nombre" type="text" placeholder="Ej. Juan Pérez" required />
-                                </div>
-                                <div class="field">
-                                    <label for="telefono">WhatsApp de Contacto</label>
-                                    <input id="telefono" name="telefono" type="tel" inputmode="tel" placeholder="+56 9 XXXX XXXX" required />
-                                </div>
-                            </div>
-                            <div class="field">
-                                <label for="comuna">Comuna de Residencia</label>
-                                <input id="comuna" name="comuna" type="text" value="Santiago Centro" required />
-                            </div>
-                            <div class="consent-box">
-                                <div class="consent-flex">
-                                    <input id="consent" name="consent" type="checkbox" required />
-                                    <label for="consent">Entiendo que mis datos son protegidos bajo estricto secreto profesional y acepto la <a href="politica-privacidad.html">política de privacidad</a>.</label>
-                                </div>
-                            </div>
-                            <button class="btn btn-primary btn-block btn-form" type="submit" id="submitBtn">Solicitar Conexión con Especialista</button>
-                            <p class="cta-trust-micro--form">Evaluación inicial de viabilidad sin costo bajo estricta reserva legal.</p>
+                            <button class="btn btn-primary btn-block btn-form" type="submit" id="submitBtn">Quiero que me contacten ahora</button>
+                            <p class="cta-trust-micro--form">Al enviar acepta nuestra <a href="politica-privacidad.html">política de privacidad</a>. Secreto profesional garantizado.</p>
                         </form>
                         <div class="form-success-message" id="formSuccessMessage" role="status" aria-live="polite">
                             <div class="form-success-icon" aria-hidden="true">✓</div>
@@ -206,7 +194,7 @@
             <div class="container">
                 <div class="section-head-premium">
                     <span class="section-subtitle">Áreas de Práctica en Santiago Centro</span>
-                    <h2 class="h2-improved">Litigantes con Presencia Real en los Tribunales</h2>
+                    <p class="h2-improved section-intro">Litigantes con Presencia Real en los Tribunales</p>
                     <p>No enviamos abogados foráneos. Asignamos profesionales que litigan cotidianamente en los Juzgados de Santiago y conocen a sus actores.</p>
                 </div>
                 <div class="grid-services-improved cards">
@@ -214,59 +202,26 @@
                         <div class="card-icon-premium">
                             <span class="card-icon-svg" role="img" aria-label="Litigios Civiles Masivos Santiago Centro"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h12a2 2 0 0 0 2-2v-2H10v2a2 2 0 1 1-4 0V5a2 2 0 0 0-2-2 2 2 0 0 0-2 2v11a2 2 0 0 0 2 2z"/><path d="M19 17V5a2 2 0 0 0-2-2H4"/></svg></span>
                         </div>
-                        <h3>Litigios Civiles Masivos y Cobros Ejecutivos</h3>
+                        <h2>Litigios Civiles Masivos y Cobros Ejecutivos</h2>
                         <p>La concentración de Juzgados Civiles en Santiago Centro —1° a 30° Juzgado Civil de Santiago— permite litigar de manera ágil incumplimientos contractuales, demandas de responsabilidad civil, juicios ejecutivos por documentos impagos (pagarés, cheques, facturas), acciones indemnizatorias, nulidades y resoluciones de contratos. Operamos con presencia directa en los tribunales civiles y en la Corte de Apelaciones de Santiago.</p>
                     </article>
                     <article class="service-card-improved">
                         <div class="card-icon-premium">
                             <span class="card-icon-svg" role="img" aria-label="Defensa Penal Alta Complejidad Santiago"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
                         </div>
-                        <h3>Defensa Penal de Alta Complejidad</h3>
+                        <h2>Defensa Penal de Alta Complejidad</h2>
                         <p>Santiago Centro concentra los Juzgados de Garantía, Tribunales de Juicio Oral en lo Penal y las Fiscalías Centro Norte y Centro Sur. Asumimos defensa penal en delitos económicos, delitos contra la propiedad, lesiones, conducción en estado de ebriedad, delitos sexuales y violencia intrafamiliar. Intervenimos desde la audiencia de control de detención, formalización y medidas cautelares hasta el juicio oral, con análisis riguroso de la teoría del caso bajo secreto profesional.</p>
                     </article>
                     <article class="service-card-improved">
                         <div class="card-icon-premium">
                             <span class="card-icon-svg" role="img" aria-label="Querellas Criminales y Gestiones Administrativas Santiago"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></span>
                         </div>
-                        <h3>Querellas Criminales y Gestiones Judiciales Centrales</h3>
+                        <h2>Querellas Criminales y Gestiones Judiciales Centrales</h2>
                         <p>Presentamos querellas criminales ante el Juzgado de Garantía competente y la Fiscalía Local correspondiente, con análisis técnico de los antecedentes y de la línea investigativa. Adicionalmente, gestionamos trámites administrativos y judiciales centrales: presentaciones ante la Corte de Apelaciones, recursos de protección, exhortos, certificaciones y gestiones ante servicios públicos concentrados en el barrio cívico (Contraloría, Registro Civil, SII y municipalidad de Santiago).</p>
                     </article>
                 </div>
             </div>
         </section>
-
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "¿Cómo se litiga un juicio civil masivo o cobro ejecutivo en los Juzgados Civiles de Santiago?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Los Juzgados Civiles de Santiago (1° al 30°) concentran un altísimo volumen de causas civiles, cobros ejecutivos y demandas de cuantía relevante. El procedimiento ejecutivo aplica cuando se tiene un título ejecutivo (pagaré, cheque, sentencia, escritura pública con cláusula ejecutiva) y permite solicitar el embargo de bienes desde el inicio. Un litigante con presencia diaria en los tribunales civiles conoce los turnos, las prácticas de cada despacho y los tiempos reales de notificación, lo que aporta valor procesal relevante para la conformación de la estrategia. El plazo de prescripción de la acción ejecutiva varía según el título (1 a 3 años, según corresponda)."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "¿Cómo opera la defensa penal de alta complejidad en los Tribunales de Santiago Centro?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "La defensa penal de alta complejidad en Santiago Centro se desarrolla ante los Juzgados de Garantía de Santiago, los Tribunales de Juicio Oral en lo Penal y las Fiscalías Centro Norte y Centro Sur. La defensa interviene desde la audiencia de control de detención (dentro de 24 horas), seguida de la formalización, discusión de medidas cautelares, investigación, audiencia preparatoria de juicio oral y, eventualmente, juicio oral. Un litigante penal que opera cotidianamente en estos tribunales conoce los criterios de los jueces de garantía y de los fiscales, lo que aporta criterio técnico relevante para la conformación de la teoría del caso, bajo estricta reserva profesional."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "¿Dónde se presenta una querella criminal en Santiago y cómo funciona el proceso?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "En Santiago, las querellas criminales se presentan ante el Juzgado de Garantía competente según el territorio del hecho, dirigidas formalmente contra los imputados. El abogado querellante debe identificar el hecho, los imputados y los antecedentes que lo fundamentan conforme al artículo 113 del Código Procesal Penal. Una vez admitida a tramitación, la Fiscalía investiga bajo control del Juzgado de Garantía. Un litigante penal en Santiago Centro conoce los turnos fiscales y los criterios de admisibilidad, lo que aporta criterio técnico relevante para la conformación de la querella y la coordinación con la investigación."
-              }
-            }
-          ]
-        }
-        </script>
 
         <section class="section-faq" id="faq-santiago-centro" aria-labelledby="faq-titulo-sc">
             <div class="container">
@@ -280,26 +235,26 @@
                     <span class="faq-context-tag">Juzgados de Garantía</span>
                     <span class="faq-context-tag">Querellas y Fiscalía</span>
                 </div>
-                <div class="faq-accordion">
-                    <details class="faq-premium-item">
-                        <summary>¿Cómo se litiga un juicio civil masivo o cobro ejecutivo en los Juzgados Civiles de Santiago?</summary>
-                        <div class="faq-premium-content">
+                <div class="faq-accordion" itemscope itemtype="https://schema.org/FAQPage">
+                    <details class="faq-premium-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <summary itemprop="name">¿Cómo se litiga un juicio civil masivo o cobro ejecutivo en los Juzgados Civiles de Santiago?</summary>
+                        <div class="faq-premium-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                             <span class="faq-premium-sector">Civil · Cobro Ejecutivo</span>
-                            <p>Los Juzgados Civiles de Santiago (1° al 30°) concentran un altísimo volumen de causas civiles, cobros ejecutivos y demandas de cuantía relevante. El procedimiento ejecutivo aplica cuando se tiene un título ejecutivo (pagaré, cheque, sentencia, escritura pública con cláusula ejecutiva) y permite solicitar el embargo de bienes desde el inicio. Un litigante con presencia diaria en los tribunales civiles conoce los turnos, las prácticas de cada despacho y los tiempos reales de notificación, lo que aporta valor procesal relevante para la conformación de la estrategia.</p>
+                            <p itemprop="text">Los Juzgados Civiles de Santiago (1° al 30°) concentran un altísimo volumen de causas civiles, cobros ejecutivos y demandas de cuantía relevante. El procedimiento ejecutivo aplica cuando se tiene un título ejecutivo (pagaré, cheque, sentencia, escritura pública con cláusula ejecutiva) y permite solicitar el embargo de bienes desde el inicio. Un litigante con presencia diaria en los tribunales civiles conoce los turnos, las prácticas de cada despacho y los tiempos reales de notificación, lo que aporta valor procesal relevante para la conformación de la estrategia.</p>
                         </div>
                     </details>
-                    <details class="faq-premium-item">
-                        <summary>¿Cómo opera la defensa penal de alta complejidad en los Tribunales de Santiago Centro?</summary>
-                        <div class="faq-premium-content">
+                    <details class="faq-premium-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <summary itemprop="name">¿Cómo opera la defensa penal de alta complejidad en los Tribunales de Santiago Centro?</summary>
+                        <div class="faq-premium-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                             <span class="faq-premium-sector">Penal · Defensa Compleja</span>
-                            <p>La defensa penal de alta complejidad se desarrolla ante los Juzgados de Garantía de Santiago, los Tribunales de Juicio Oral en lo Penal y las Fiscalías Centro Norte y Centro Sur. La defensa interviene desde la audiencia de control de detención, formalización, medidas cautelares, investigación, audiencia preparatoria y, eventualmente, juicio oral. Un litigante penal que opera cotidianamente en estos tribunales conoce los criterios de los jueces de garantía y de los fiscales, lo que aporta criterio técnico relevante para la teoría del caso, bajo estricta reserva profesional.</p>
+                            <p itemprop="text">La defensa penal de alta complejidad se desarrolla ante los Juzgados de Garantía de Santiago, los Tribunales de Juicio Oral en lo Penal y las Fiscalías Centro Norte y Centro Sur. La defensa interviene desde la audiencia de control de detención, formalización, medidas cautelares, investigación, audiencia preparatoria y, eventualmente, juicio oral. Un litigante penal que opera cotidianamente en estos tribunales conoce los criterios de los jueces de garantía y de los fiscales, lo que aporta criterio técnico relevante para la teoría del caso, bajo estricta reserva profesional.</p>
                         </div>
                     </details>
-                    <details class="faq-premium-item">
-                        <summary>¿Dónde se presenta una querella criminal en Santiago y cómo funciona el proceso?</summary>
-                        <div class="faq-premium-content">
+                    <details class="faq-premium-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <summary itemprop="name">¿Dónde se presenta una querella criminal en Santiago y cómo funciona el proceso?</summary>
+                        <div class="faq-premium-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                             <span class="faq-premium-sector">Penal · Juzgado de Garantía</span>
-                            <p>Las querellas criminales en Santiago se presentan ante el Juzgado de Garantía competente según el territorio del hecho, dirigidas formalmente contra los imputados. El abogado querellante debe identificar el hecho, los imputados y los antecedentes fundantes conforme al artículo 113 del Código Procesal Penal. Una vez admitida a tramitación, la Fiscalía investiga bajo control del Juzgado de Garantía. Un litigante penal con presencia cotidiana en Santiago Centro conoce los turnos fiscales y los criterios de admisibilidad, lo que aporta criterio técnico relevante.</p>
+                            <p itemprop="text">Las querellas criminales en Santiago se presentan ante el Juzgado de Garantía competente según el territorio del hecho, dirigidas formalmente contra los imputados. El abogado querellante debe identificar el hecho, los imputados y los antecedentes fundantes conforme al artículo 113 del Código Procesal Penal. Una vez admitida a tramitación, la Fiscalía investiga bajo control del Juzgado de Garantía. Un litigante penal con presencia cotidiana en Santiago Centro conoce los turnos fiscales y los criterios de admisibilidad, lo que aporta criterio técnico relevante.</p>
                         </div>
                     </details>
                 </div>
